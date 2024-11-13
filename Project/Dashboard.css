@@ -1,0 +1,88 @@
+
+.color1{
+
+        background: url('https://img.freepik.com/free-photo/screen-showing-data-about-financial-crisis-because-coronavirus_181624-59374.jpg?t=st=1725270188~exp=1725273788~hmac=bbac15952a3cd98cc245a888d22948067599a5760ed10e7bdc476436ec6ea2e7&w=1800') no-repeat center center fixed;
+        background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+.dashboard-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .dashboard-home h1 {
+    color: #a5a0a5;
+    margin-bottom: 20px;
+  }
+  
+  .quick-stats {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  
+  .stat-item {
+    background-color: #a5a0a5;
+    color: #120404;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 50PX;
+  }
+  
+  .notifications {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  
+  .notifications h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .notifications ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .notifications ul li {
+    margin-bottom: 10px;
+    color: #555;
+    padding: 10px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .dashboard-button {
+    padding: 15px 30px;
+    background-color: #2a4329;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #4f845e;
+  }
+  
