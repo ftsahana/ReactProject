@@ -1,0 +1,54 @@
+
+.color{
+    background: url('https://img.freepik.com/free-vector/gradient-stock-market-concept_23-2149166910.jpg?w=1800&t=st=1725208839~exp=1725209439~hmac=d4a8aeb8c670a869ae89f764b7ace0f1b40a753fd3a7daaade7fb0929ea38571') no-repeat center center fixed;
+    background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.homepage-container {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .homepage-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  .homepage-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .homepage-buttons button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .homepage-buttons button:hover {
+    transform: scale(1.05);
+    background-color: #0056b3;
+  }
+  
